@@ -294,6 +294,11 @@
   <ItemGroup>
     <EmbeddedResource Include="Resources\ram.png" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\barblack.png" />
+    <EmbeddedResource Include="Resources\bargreen.png" />
+    <EmbeddedResource Include="Resources\gadget_a50.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio AllowExistingFolder="true" />

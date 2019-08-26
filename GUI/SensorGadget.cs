@@ -21,11 +21,11 @@ namespace OpenHardwareMonitor.GUI {
 
     private UnitManager unitManager;
 
-    private Image back = Utilities.EmbeddedResources.GetImage("gadget.png");
+    private Image back = Utilities.EmbeddedResources.GetImage("gadget_a50.png");
     private Image image = null;
     private Image fore = null;
-    private Image barBack = Utilities.EmbeddedResources.GetImage("barback.png");
-    private Image barFore = Utilities.EmbeddedResources.GetImage("barblue.png");
+    private Image barBack = Utilities.EmbeddedResources.GetImage("barblack.png");
+    private Image barFore = Utilities.EmbeddedResources.GetImage("bargreen.png");
     private const int topBorder = 6;
     private const int bottomBorder = 7;
     private const int leftBorder = 6;
